@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <nav class="navItems">
-        <a href="#">Works</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
+    <nav class="navItems" id="home">
+        <a href="#work">Works</a>
+        <a href="#blog">Blog</a>
+        <a href="#footer">Contact</a>
     </nav>
 <!--============ hero section========= -->
-    <div class="hero">
+    <div class="hero" >
         <div class="heroText">
             <h1>Hi, I'm Mohaimin,<br>Creative Technologist</h1>
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
@@ -28,10 +28,10 @@
     </div>
 <!--============ recent post section========= -->
 
-<div class="container">
+<div class="container" id="blog">
     <div class="box">
         <div class="colum">
-            <p class="p1">Recent Post</p>
+            <span class="p1">Recent Post</span>
             <div class="card">
                 <h1>Making a design system from scratch</h1>
                 <p>12 Feb 2022 | Design Pattern</p>
@@ -41,7 +41,7 @@
     
     
         <div class="colum">
-            <p class="p2">View all</p>
+            <span class="p2">View all</span>
             <div class="card">
                 <h1>Creating pixel perfect icons in Figma</h1>
                 <p>12 Feb 2022 | Figma, Icon Design</p>
@@ -51,11 +51,60 @@
     </div>
 </div>
 
+<!-- ============= Feature Works=============== -->
 
+<div class="features" id="work">
+    <h3>Featured Works</h3>
+    <div class="one">
+        <div class="oneImage">
+            <img src="image/Rectangle 30.png" alt="">
+        </div>
+        <div class="oneText">
+            <h1>Designing Dashboards</h1>
+            <p><span class="sOne">2022</span> <span class="sTwo"> Dashboard</span></p>
+            <article>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</article>
+        </div>
+    </div>
+<!-- another 2-->
+    <div class="one">
+        <div class="oneImage">
+            <img src="image/Rectangle 32.png" alt="Image">
+        </div>
+        <div class="oneText">
+            <h1>Vibrant Portraits of 2020</h1>
+            <p><span class="sOne">2022</span> <span class="sTwo"> Illustration</span></p>
+            <article>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</article>
+        </div>
+    </div>
+<!-- another 3-->
+    <div class="one">
+        <div class="oneImage">
+            <img src="image/Rectangle 34.png" alt="Image">
+        </div>
+        <div class="oneText">
+            <h1>36 Days of Malayalam type</h1>
+            <p><span class="sOne">2022</span> <span class="sTwo"> Typography</span></p>
+            <article>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</article>
+        </div>
+    </div>
+</div>
 
+<!--============== footer section =========== -->
 
-
-
+<footer>
+    <div class="footerBox" id="footer">
+        <div class="footerImage">
+            <a href="#"><img src="image/instagram.png" alt="Linkedin"></a>
+            <a href="#"><img src="image/fb.png" alt="Linkedin"></a>
+            <a href="#"><img src="image/Group.png" alt="Linkedin"></a>
+            <a href="#"><img src="image/Linkedin.png" alt="Linkedin"></a>
+        </div>
+        <div class="text">
+            <small>Copyright ©2022 || Programmer Mohaimin</small>
+            <a href="#home"><h1>Go to Home</h1></a>
+        </div>
+    </div>
+</footer>
 
 
 
